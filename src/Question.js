@@ -1,14 +1,22 @@
-import React from 'react'
+import React from "react";
 
 export default function Question() {
   return (
-    <>  
-        <img src='/img/Q1.jpeg' style={{width:300}} alt='test'/>
-        <p>我拎埋隔離線 偷小小位, 防佢話我太接近物體好冇?</p>
-        
-        <img src='/img/Q2.jpeg' style={{width:300}} alt='test'/> <br/>
-        <img src='/img/Q3.jpeg' style={{width:300}} alt='test'/> <br/>
-        <img src='/img/Q4.jpeg' style={{width:300}} alt='test'/>
+    <>
+      <h1
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "15vh",
+        }}
+      >
+        Question
+      </h1>
+      <img src="/img/Q1.jpeg" style={{ width: 500,borderRadius:30 ,height:300, marginBottom:15 }} alt="test" /> <br />
+      <img src="/img/Q2.jpeg" style={{ width: 500,borderRadius:30 ,height:300, marginBottom:15 }} alt="test" /> <br />
+      <img src="/img/Q3.jpeg" style={{ width: 500,borderRadius:30 ,height:300, marginBottom:15 }} alt="test" /> <br />
+      <img src="/img/Q4.jpeg" style={{ width: 500,borderRadius:30 ,height:300, marginBottom:15 }} alt="test" />
     </>
-  )
+  );
 }
